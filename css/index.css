@@ -308,6 +308,10 @@ footer nav a:hover {
     display:flex;
     flex-wrap: wrap;
     justify-content:space-around;
+    animation: card-contentAnimation;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1)
 }
 
 .card{
@@ -320,8 +324,6 @@ footer nav a:hover {
     margin-top:20px;
     margin-bottom:40px;
     padding-bottom:10px;
-    animation: card-contentAnimation;
-    animation-duration: 1.5s;
 }
 
 .card img{
