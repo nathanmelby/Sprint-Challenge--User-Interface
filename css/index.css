@@ -86,7 +86,7 @@ header nav {
 header nav a{
     color: rgb(46, 46, 46);
     text-decoration: none;
-    font-size: 14px;
+    font-size: 10pt;
 }
 
 /* HOME PAGE */
@@ -275,13 +275,12 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
-    font-size:14px;
+    font-size:10pt;
 
 }
 
@@ -299,22 +298,26 @@ footer nav a {
 .card-content{
     display:flex;
     flex-wrap: wrap;
-    align-content: flex-start;
+    justify-content:space-around;
+    /* align-content: flex-start; */
 }
 
 .card{
     height 450px;
-    width: 49%;
-    padding: 20px 15px 10px 15px;
+    width: 46.5%;
     border-bottom: 1px dashed black;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     flex-direction: column;
+    margin-top:20px;
+    margin-bottom:40px;
+    padding-bottom:10px;
 }
 
 .card img{
     margin: 10px 0px 15px 0px;
 }
+
 
 button{
     width: 130px;
@@ -327,10 +330,10 @@ button{
     background: white;
     
 }
-
+/* Bottom Content */
 .bottom{
-    margin:40px 20px 40px;
-    font-size:12pt;
- 
+    margin-left:20px;
+    margin-bottom:40px;
+
 }
 
