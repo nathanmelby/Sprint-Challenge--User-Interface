@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say? 
 
--Semantic HTML is assing naming conventions to elements in HTML code that reflect the nature of the item being coded. This is helpful for designers and developers
+-Semantic HTML is the use of naming conventions to elements in HTML code that reflect the nature of the item being coded. This is helpful for designers and developers. It also is useful for accesibility purposes.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 

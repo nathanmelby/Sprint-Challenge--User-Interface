@@ -70,29 +70,31 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* Nav Bar */
 
 header {
     display:flex;
     align-items:flex-end;
-    margin: 50px 0px 0px 0px;   
-}
-
-.logo {
-    margin-right: 20px;
-}
-
-.top-image {
-    margin: 50px 0px 30px;
+    margin:20px 0px 40px 0px;
 }
 header nav {
     display:flex;
-    flex-grow: 1;
+    width:80%;
     justify-content: space-around;
 }
 
 header nav a{
-    color:darkslategray;
+    color: rgb(46, 46, 46);
     text-decoration: none;
+    font-size: 10pt;
+}
+
+/* HOME PAGE */
+
+/* Hero */
+
+.top-image {
+    margin-bottom:25px;
 }
 .top-content {
     display: flex;
@@ -107,6 +109,8 @@ header nav a{
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/*Middle Content */
 
 .middle-content {
     margin-bottom: 20px;
@@ -124,7 +128,7 @@ header nav a{
     justify-content: space-evenly;
 }
 
-/* .middle-content .boxes .box {
+.middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -133,9 +137,9 @@ header nav a{
     display: flex;
     align-items: center;
     justify-content: center;
-} */
+}
 
-.middle-content .boxes .box1 {
+.box1 {
     width: 12.5%;
     height: 100px;
     background:teal;
@@ -146,7 +150,7 @@ header nav a{
     justify-content: center;
 }
 
-.middle-content .boxes .box2 {
+.box2 {
     width: 12.5%;
     height: 100px;
     background: gold;
@@ -156,8 +160,7 @@ header nav a{
     align-items: center;
     justify-content: center;
 }
-
-.middle-content .boxes .box3 {
+.box3 {
     width: 12.5%;
     height: 100px;
     background: cadetblue;
@@ -168,7 +171,7 @@ header nav a{
     justify-content: center;
 }
 
-.middle-content .boxes .box4 {
+.box4 {
     width: 12.5%;
     height: 100px;
     background: coral;
@@ -179,7 +182,7 @@ header nav a{
     justify-content: center;
 }
 
-.middle-content .boxes .box5 {
+.box5 {
     width: 12.5%;
     height: 100px;
     background:crimson;
@@ -190,7 +193,7 @@ header nav a{
     justify-content: center;
 }
 
-.middle-content .boxes .box6 {
+.box6 {
     width: 12.5%;
     height: 100px;
     background:forestgreen;
@@ -200,8 +203,7 @@ header nav a{
     align-items: center;
     justify-content: center;
 }
-
-.middle-content .boxes .box7 {
+.box7 {
     width: 12.5%;
     height: 100px;
     background: darkorchid;
@@ -212,7 +214,7 @@ header nav a{
     justify-content: center;
 }
 
-.middle-content .boxes .box8 {
+.box8 {
     width: 12.5%;
     height: 100px;
     background: hotpink;
@@ -223,7 +225,7 @@ header nav a{
     justify-content: center;
 }
 
-.middle-content .boxes .box9 {
+.box9 {
     width: 12.5%;
     height: 100px;
     background: indigo;
@@ -234,7 +236,7 @@ header nav a{
     justify-content: center;
 }
 
-.middle-content .boxes .box10 {
+.box10 {
     width: 12.5%;
     height: 100px;
     background: dodgerblue;
@@ -244,6 +246,8 @@ header nav a{
     align-items: center;
     justify-content: center;
 }
+/* Bottom Content */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -258,6 +262,8 @@ header nav a{
     padding-right: 0;
 }
 
+
+/* Footer */
 footer {
     width: 100%;
     background: black;
@@ -269,60 +275,65 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
 }
 
 footer nav a {
-    color: grey;
+    color: white;
     text-decoration: none;
+    font-size:10pt;
+
 }
 
-/* About Page CSS */
 
+/* ABOUT PAGE */
+
+/* Hero */
 .about{
-    padding: 20px 15px 20px;
+    padding: 20px 20px;
     border-bottom: 1px dashed black;
 }
+
+/* Middle Content */
 
 .card-content{
     display:flex;
     flex-wrap: wrap;
-    align-content: flex-start;
+    justify-content:space-around;
+    /* align-content: flex-start; */
+}
+
+.card{
+    height 450px;
+    width: 46.5%;
+    border-bottom: 1px dashed black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top:20px;
+    margin-bottom:40px;
+    padding-bottom:10px;
 }
 
 .card img{
-    margin: 10px 0 10px;
-}
-.card{
-    height 450px;
-    width: 49%;
-    padding: 30px 20px 20px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    border-bottom: 1px dashed black;
-    border-width: 40%;
-
+    margin: 10px 0px 15px 0px;
 }
 
 
 button{
-    width: 100px;
-    height: 30px;
+    width: 130px;
+    height: 40px;
+    border: 2px solid black; 
+    border-radius: 10px;
     margin: 20px 0px 10px;
-    border: 2px solid black;
-    font-size: 10pt;
-    background: white;
+    font-size: 12pt;
     font: black;
-    border-radius: 7px;
+    background: white;
+    
 }
-
+/* Bottom Content */
 .bottom{
-    margin:40px 20px 40px;
- 
-}
+    margin-left:20px;
+    margin-bottom:40px;
 
-.about-image {
-    margin: 50px 0px 0px;
 }
 
