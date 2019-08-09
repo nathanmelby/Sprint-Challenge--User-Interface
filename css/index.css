@@ -326,9 +326,14 @@ button{
     border-radius: 10px;
     margin: 20px 0px 10px;
     font-size: 12pt;
-    font: black;
+    color: black;
     background: white;
     
+}
+
+button:hover {
+    background:black;
+    color:white;
 }
 /* Bottom Content */
 .bottom{
