@@ -340,7 +340,7 @@ button{
     font-size: 12pt;
     color: black;
     background: white;
-    transition: .2s;
+    transition: .5s cubic-bezier(0.2, .8, 0.2, 1)
     
 }
 
