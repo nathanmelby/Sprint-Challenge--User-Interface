@@ -89,6 +89,10 @@ header nav a{
     font-size: 10pt;
 }
 
+header nav a:hover {
+    color: dodgerblue;
+}
+
 /* HOME PAGE */
 
 /* Hero */
@@ -281,7 +285,11 @@ footer nav a {
     color: white;
     text-decoration: none;
     font-size:10pt;
+}
 
+footer nav a:hover {
+    color:dodgerblue;
+}
 }
 
 
@@ -299,7 +307,6 @@ footer nav a {
     display:flex;
     flex-wrap: wrap;
     justify-content:space-around;
-    /* align-content: flex-start; */
 }
 
 .card{
