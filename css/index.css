@@ -83,7 +83,7 @@ header nav {
     justify-content: space-around;
 }
 .logo {
-    margin-right:20px;
+    /* margin-right:10px; */
 }
 
 header nav a{
