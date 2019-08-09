@@ -75,11 +75,11 @@ p {
 header {
     display:flex;
     align-items:flex-end;
-    margin-bottom:40px;
+    margin:20px 0px 40px 0px;
 }
-.top-nav {
+header nav {
     display:flex;
-    flex-grow: 1;
+    width:80%;
     justify-content: space-around;
 }
 .logo {
@@ -89,7 +89,10 @@ header {
 header nav a{
     color: rgb(46, 46, 46);
     text-decoration: none;
+ 
 }
+
+/* HOME PAGE */
 
 /* Hero */
 
@@ -282,3 +285,6 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* ABOUT PAGE */
